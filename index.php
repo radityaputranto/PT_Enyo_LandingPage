@@ -12,6 +12,8 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="general/normalize.css">
     <link rel="stylesheet" type="text/css" href="general/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <!-- Custom styles for this template -->
       <!-- <link href="css/cover.css" rel="stylesheet"> -->
@@ -86,18 +88,10 @@
     </div>
 <!-- end download it -->
     
+<!-- feature section -->
+
     <div class="container">
       <div class="row">    
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-          <div class="media">
-            <img class="d-flex mr-3" src="http://placehold.it/50x50" alt="Generic placeholder image">
-            <div class="media-body">
-                <h5 class="mt-0">Media heading</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-          </div>
-        </div>
 
         <div class="col-xs-12 col-sm-6 col-lg-4">
           <div class="media">
@@ -149,11 +143,78 @@
           </div>
         </div>
 
-
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <div class="media">
+            <img class="d-flex mr-3" src="http://placehold.it/50x50" alt="Generic placeholder image">
+            <div class="media-body">
+                <h5 class="mt-0">Media heading</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>
+<!--end  feature section -->
 
+<!-- pricing section -->
+    <div class="features">
+      <h2>Check Out Features</h2>
+
+      <img src="http://placehold.it/800x500" class="img-fluid ">
+    </div>
+
+    <div class="container">
+      <div class="row ">
+
+        <div class="col-xs-12 col-md-4 price"> 
+            <h4>Basic Plan</h4>
+            <h5><strong>$</strong><strong class="price-figure">25</strong>/month</h5>
+            <p>Lorem Ipsum dolor sit.</p>
+          
+        </div>
+
+        <div class="col-xs-12 col-md-4 price"> 
+            <h4>Basic Plan</h4>
+            <h5><strong>$</strong><strong class="price-figure">25</strong>/month</h5>
+            <p>Lorem Ipsum dolor sit.</p>
+          
+        </div>
+
+        <div class="col-xs-12 col-md-4 price"> 
+            <h4>Basic Plan</h4>
+            <h5><strong>$</strong><strong class="price-figure">25</strong>/month</h5>
+            <p>Lorem Ipsum dolor sit.</p>
+          
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="contact-info">
+        <img src="http://placehold.it/50x50" alt="Generic placeholder image">
+        <h3>Got Question</h3>  
+        <p>Contact our customer if you have any further question. We are here to helpyou out</p>
+
+        <div class="contact-items">
+            <h5><i class="fa fa-phone" aria-hidden="true"></i>+62 821 234 568 </h5>
+            <h5><i class="fa fa-envelope" aria-hidden="true"></i>supoport@enyo.com </h5>
+        </div>
+
+    </div>
+    
+<!-- end pricing section -->
+
+<!-- download section -->
+  <div class="download-template">
+    <h2>Download Template For Free</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros elit, ultricies non tortor id, posuere varius sapien. Donec arcu enim, ullamcorper sed risus eu, mollis feugiat lorem. Quisque a egestas magna. Phasellus scelerisque hendrerit mauris, ac ullamcorper felis fermentum vitae.</p>
+
+    <button><i class="fa fa-download" aria-hidden="true"></i> Download</button>
+
+  </div>
+  <div class="img-fluid footer-img"></div>
+<!-- download section -->
 
 <!-- content -->
 

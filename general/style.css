@@ -14,3 +14,54 @@
 	background-repeat: no-repeat;
 	background-image: url("http://placehold.it/800x650");
 }
+
+/*pricing*/
+div.features h2{
+	text-align: center;
+}
+div.features img{
+	display: block;
+	margin :0 auto;
+}
+div.price{
+	border : 15px solid aliceblue;
+	padding: 3em;
+	background-color: #fff;
+	text-align: center;
+}
+
+.price h4,
+.price h5,
+.price p{
+	display: block;
+}
+
+strong.price-figure{
+	font-size: 2em;
+}
+
+/*contact info*/
+div.contact-info{
+	margin:0 auto;
+	text-align: center;
+}
+div.contact-items h5{
+	width: 15em; 
+	display: inline-block;
+}
+
+/*downlaod sectoin*/
+div.download-template{
+	margin:0 auto;
+	text-align: center;
+	width: 100%;	
+	max-width: 400em;
+}
+.footer-img{
+	width: 100%;
+	height: 20em;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("http://placehold.it/800x300");
+}
