@@ -4,24 +4,47 @@
 .capitalize{
 	text-transform: uppercase;
 }
+.text-white{
+	color: white;
+}
+nav.navigation{
+	
+	background-color: #0289D1;
+}
+nav-item a{
+	color: white;
+}
+.center{
+	margin: 0 auto;
+}
 /*header*/
+.text-header{
+	margin-bottom: 2em;
+}
 .relative{
 	position: relative;
 }
 .banner-img{
 	width: 100%;
 	height: 30em;
+	background:linear-gradient(rgba(255,255,255,0.00),rgba(255,255,255,0.0)),rgba(255,255,255,0.55) url("../img/header.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: url("../img/header.jpg");
+	/*background-image: url("../img/header.jpg");*/
 }
 div.banner{
 	text-align: center; 
-	padding-top: 4em;
+	padding-top: 3em;
+	
 }
 .round-btn{
 	border-radius:  50px;
+	border:solid 5px #132E4F;
+	background-color: #132E4F;
+	color:white;
+	padding: 0.2em 0.5em ;
+	font-size: 15px;
 }
 div.download-it{
 	margin-top: 2.6em;
@@ -29,6 +52,15 @@ div.download-it{
 div.download-it li ,div.download-it ul{
 	padding: 0em;
 	list-style-type: none;
+}
+div.download-it h2{
+	margin-top: 1.75em;
+}
+div.macbook{
+	
+	padding-top: 3.3em;
+	
+	align-items: center;
 }
 .fitur{
 	margin-top: 2em;
@@ -42,18 +74,31 @@ div.media img{
 
 }
 /*pricing*/
+div.features{
+	margin-top: 3em;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+}
 div.features h2{
 	text-align: center;
 }
 div.features img{
+
 	display: block;
-	margin :0 auto;
+	margin :-90 auto;
+	margin-bottom: 1em;
 }
 div.price{
-	border : 15px solid #F2F4F5;
+	border : 3px solid #F2F4F5;
 	padding: 3em;
+	max-width: 230px;
 	background-color: #fff;
 	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 0 auto;
+	margin-top: 1em;
+
+	
 }
 
 .price h4,
@@ -84,7 +129,9 @@ div.contact-items h5{
 	width: 15em; 
 	display: inline-block;
 }
-
+.cs{
+	height: 50px;
+}
 /*downlaod sectoin*/
 
 div.download-template{
@@ -102,10 +149,12 @@ div.download-template p{
 .footer-img{
 	width: 100%;
 	height: 20em;
+	background:linear-gradient(rgba(255,255,255,0.60),rgba(255,255,255,0.00)),rgba(255,255,255,0.55) url("../img/footer.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: url("../img/footer.jpg");
+	
+	
 }
 
 /*plans*/
@@ -113,12 +162,11 @@ div.plans-container{
 	background-color: #F2F4F5;
 }
 div.plans-container .row:first-child{
-
 	width: 100%;
 	max-width: 48em;
 	margin:0 auto;
 	text-align: center;
-	padding: 7em 0 3em 0;
+	padding: 3em 0 3em 0;
 }
 div.plans-container .row:nth-child(2){
 	margin:0 2em;

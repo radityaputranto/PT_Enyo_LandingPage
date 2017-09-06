@@ -21,24 +21,26 @@
   <body>
 
 <!-- header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-faded">
-      <a class="navbar-brand" href="#">HijabDien</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg navbar-light bg-faded navigation">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" width="80" height="auto" alt="">
+      </a>
+      <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-white"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link text-white" href="#">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link text-white" href="#">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link disabled text-white" href="#">Disabled</a>
           </li>
           </ul>
         </div>
@@ -47,9 +49,9 @@
     <div class="banner-img">
             
             <div class="container banner"> 
-                  <h1 class="capitalize">Enyo Company</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros elit, ultricies non tortor id, posuere varius sapien. Donec arcu enim, ullamcorper sed risus eu, mollis feugiat lorem. Quisque a egestas magna. Phasellus scelerisque hendrerit mauris,</p>
-                    <button class="round-btn"><i class="fa fa-download" aria-hidden="true"></i>Download</button>
+                  <h1 class="capitalize text-white">Enyo Company</h1>
+                    <p class="text-white col-xs-12 d-none  d-md-block col-md-8 center text-header">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros elit, ultricies non tortor id, posuere varius sapien. Donec arcu enim, ullamcorper sed risus eu, mollis feugiat lorem. Quisque a egestas magna. Phasellus scelerisque hendrerit mauris,</p>
+                    <a href=""><button class="round-btn"><i class="fa fa-download" aria-hidden="true"></i> Download</button></a>
 
             </div>
     </div>
@@ -63,11 +65,11 @@
     <div class="container relative">
       <div class="row download-it">
 
-          <div class="col-xs-12 d-md-none"> 
-              <img class="img-fluid "src="http://placehold.it/855x440">
+          <div class="col-xs-12 d-md-none d-flex macbook"> 
+              <img class="img-fluid " src="img/macbook.png">
           </div>
 
-          <div class="col-xs-12 col-sm-12 col-md-7"> 
+          <div class="col-xs-12 col-sm-12 col-md-7 "> 
             
               <h2>JUST DOWNLOAD IT</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros elit, ultricies non tortor id, posuere varius sapien. Donec arcu enim, ullamcorper sed risus eu, mollis feugiat lorem. Quisque a egestas magna. Phasellus scelerisque hendrerit mauris, ac ullamcorper felis fermentum vitae. Nulla facilisis mi at </p>
@@ -80,8 +82,8 @@
               <button class="round-btn">Read More</button>
           </div>
 
-           <div class="col-xs-12 d-none  d-md-block col-md-5"> 
-              <img class="img-fluid "src="http://placehold.it/855x440">
+           <div class="col-xs-12 d-none  d-md-block col-md-5 macbook"> 
+              <img class="img-fluid " src="img/macbook.png">
           </div>
         
       </div>
@@ -162,7 +164,7 @@
     <div class="features">
       <h2 class="capitalize">Check Out Features</h2>
 
-      <img src="http://placehold.it/800x500" class="img-fluid ">
+      <img src="img/macbook-feature.png" class="img-fluid " alt="Responsive image">
     </div>
 
     <div class="container-fluid plans-container">
@@ -198,7 +200,7 @@
     </div>
 
     <div class="contact-info">
-        <img src="http://placehold.it/50x50" alt="Generic placeholder image">
+        <img src="img/cs.svg" alt="Generic placeholder image" class="cs">
         <h3 class="capitalize">Got Question</h3>  
         <p>Contact our customer if you have any further question. We are here to helpyou out</p>
 
