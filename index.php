@@ -46,10 +46,10 @@
 
     <div class="banner-img">
             
-            <div class="  container"> 
-                  <h1>Enyo Company</h1>
+            <div class="container banner"> 
+                  <h1 class="capitalize">Enyo Company</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros elit, ultricies non tortor id, posuere varius sapien. Donec arcu enim, ullamcorper sed risus eu, mollis feugiat lorem. Quisque a egestas magna. Phasellus scelerisque hendrerit mauris,</p>
-                    <button>Download</button>
+                    <button class="round-btn"><i class="fa fa-download" aria-hidden="true"></i>Download</button>
 
             </div>
     </div>
@@ -61,7 +61,7 @@
 
 <!-- download it -->
     <div class="container relative">
-      <div class="row">
+      <div class="row download-it">
 
           <div class="col-xs-12 d-md-none"> 
               <img class="img-fluid "src="http://placehold.it/855x440">
@@ -72,11 +72,12 @@
               <h2>JUST DOWNLOAD IT</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros elit, ultricies non tortor id, posuere varius sapien. Donec arcu enim, ullamcorper sed risus eu, mollis feugiat lorem. Quisque a egestas magna. Phasellus scelerisque hendrerit mauris, ac ullamcorper felis fermentum vitae. Nulla facilisis mi at </p>
 
-              <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+              <ul >
+                <li><i class="fa fa-check-circle-o" aria-hidden="true"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                <li><i class="fa fa-check-circle-o" aria-hidden="true"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                <li><i class="fa fa-check-circle-o" aria-hidden="true"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
               </ul>
+              <button class="round-btn">Read More</button>
           </div>
 
            <div class="col-xs-12 d-none  d-md-block col-md-5"> 
@@ -90,12 +91,12 @@
     
 <!-- feature section -->
 
-    <div class="container">
-      <div class="row">    
+    <div class="container fitur">
+      <div class="row ">    
 
         <div class="col-xs-12 col-sm-6 col-lg-4">
           <div class="media">
-            <img class="d-flex mr-3" src="http://placehold.it/50x50" alt="Generic placeholder image">
+            <img class="d-flex mr-3" src="img/star.svg" alt="Generic placeholder image">
             <div class="media-body">
                 <h5 class="mt-0">Media heading</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
@@ -105,7 +106,7 @@
 
         <div class="col-xs-12 col-sm-6 col-lg-4">
           <div class="media">
-            <img class="d-flex mr-3" src="http://placehold.it/50x50" alt="Generic placeholder image">
+            <img class="d-flex mr-3" src="img/desktop.svg" alt="Generic placeholder image">
             <div class="media-body">
                 <h5 class="mt-0">Media heading</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
@@ -115,7 +116,7 @@
 
         <div class="col-xs-12 col-sm-6 col-lg-4">
           <div class="media">
-            <img class="d-flex mr-3" src="http://placehold.it/50x50" alt="Generic placeholder image">
+            <img class="d-flex mr-3 img-fitur" src="img/dot-line.svg" alt="Generic placeholder image">
             <div class="media-body">
                 <h5 class="mt-0">Media heading</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
@@ -125,7 +126,7 @@
 
         <div class="col-xs-12 col-sm-6 col-lg-4">
           <div class="media">
-            <img class="d-flex mr-3" src="http://placehold.it/50x50" alt="Generic placeholder image">
+            <img class="d-flex mr-3 img-fitur" src="img/device.svg" alt="Generic placeholder image">
             <div class="media-body">
                 <h5 class="mt-0">Media heading</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
@@ -135,7 +136,7 @@
 
         <div class="col-xs-12 col-sm-6 col-lg-4">
           <div class="media">
-            <img class="d-flex mr-3" src="http://placehold.it/50x50" alt="Generic placeholder image">
+            <img class="d-flex mr-3 img-fitur" src="img/camera.svg" alt="Generic placeholder image">
             <div class="media-body">
                 <h5 class="mt-0">Media heading</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
@@ -145,7 +146,7 @@
 
         <div class="col-xs-12 col-sm-6 col-lg-4">
           <div class="media">
-            <img class="d-flex mr-3" src="http://placehold.it/50x50" alt="Generic placeholder image">
+            <img class="d-flex mr-3 img-fitur" src="img/paper.svg" alt="Generic placeholder image">
             <div class="media-body">
                 <h5 class="mt-0">Media heading</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
@@ -159,13 +160,18 @@
 
 <!-- pricing section -->
     <div class="features">
-      <h2>Check Out Features</h2>
+      <h2 class="capitalize">Check Out Features</h2>
 
       <img src="http://placehold.it/800x500" class="img-fluid ">
     </div>
 
-    <div class="container">
+    <div class="container-fluid plans-container">
       <div class="row ">
+
+        <div class="col12 plans">
+          <h3 class="capitalize center" >Plans</h3>    
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros elit, ultricies non tortor id, posuere varius sapien. Donec arcu enim, ullamcorper sed risus eu,</p>
+        </div>
 
         <div class="col-xs-12 col-md-4 price"> 
             <h4>Basic Plan</h4>
@@ -193,7 +199,7 @@
 
     <div class="contact-info">
         <img src="http://placehold.it/50x50" alt="Generic placeholder image">
-        <h3>Got Question</h3>  
+        <h3 class="capitalize">Got Question</h3>  
         <p>Contact our customer if you have any further question. We are here to helpyou out</p>
 
         <div class="contact-items">
@@ -207,10 +213,10 @@
 
 <!-- download section -->
   <div class="download-template">
-    <h2>Download Template For Free</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros elit, ultricies non tortor id, posuere varius sapien. Donec arcu enim, ullamcorper sed risus eu, mollis feugiat lorem. Quisque a egestas magna. Phasellus scelerisque hendrerit mauris, ac ullamcorper felis fermentum vitae.</p>
+    <h2 class="capitalize">Download Template For Free</h2>
+    <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros elit, ultricies non tortor id, posuere varius sapien. Donec arcu enim, ullamcorper sed risus eu, mollis feugiat lorem. Quisque a egestas magna. Phasellus scelerisque hendrerit mauris, ac ullamcorper felis fermentum vitae.</p>
 
-    <button><i class="fa fa-download" aria-hidden="true"></i> Download</button>
+    <button class="round-btn"><i class="fa fa-download" aria-hidden="true"></i> Download</button>
 
   </div>
   <div class="img-fluid footer-img"></div>
