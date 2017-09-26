@@ -7,15 +7,26 @@
 .text-white{
 	color: white;
 }
+.round-img{
+	border-radius: 20px;
+}
 nav.navigation{
 	
-	background-color: #0289D1;
+	/*background-color: rgba(0, 0, 0, 0.0);*/
+	
+	background-color: transparent;
 }
 nav-item a{
 	color: white;
 }
 .center{
 	margin: 0 auto;
+}
+div.garis{
+	height: 5px;
+	width: 30px;
+	background-color: #D02D1F;
+	margin: 10 auto;
 }
 /*header*/
 .text-header{
@@ -25,9 +36,10 @@ nav-item a{
 	position: relative;
 }
 .banner-img{
+	margin-top: -5em;
 	width: 100%;
-	height: 30em;
-	background:linear-gradient(rgba(255,255,255,0.00),rgba(255,255,255,0.0)),rgba(255,255,255,0.55) url("../img/header.png");
+
+	background: url("../img/bg_head.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -40,8 +52,8 @@ div.banner{
 }
 .round-btn{
 	border-radius:  50px;
-	border:solid 5px #132E4F;
-	background-color: #132E4F;
+	border:solid 5px #D02D1F;
+	background-color: #D02D1F;
 	color:white;
 	padding: 0.2em 0.5em ;
 	font-size: 15px;
@@ -56,9 +68,16 @@ div.download-it li ,div.download-it ul{
 div.download-it h2{
 	margin-top: 1.75em;
 }
-div.macbook{
+div.header-keterangan{
+	padding-top: 6.7em;
+}
+div.mentor-atas{
+	padding-top: 3.7em;
+	align-items: center;
+	}
+div.mentor{
 	
-	padding-top: 3.3em;
+	padding-top: 1.7em;
 	
 	align-items: center;
 }
@@ -157,17 +176,141 @@ div.download-template p{
 	
 }
 
-/*plans*/
-div.plans-container{
-	background-color: #F2F4F5;
+/*regional*/
+div.bg-regional{
+	background:url("../img/bg-regional.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
-div.plans-container .row:first-child{
+
+div.regional-container .row:first-child{
 	width: 100%;
-	max-width: 48em;
+	max-width: 68em;
 	margin:0 auto;
 	text-align: center;
 	padding: 3em 0 3em 0;
 }
-div.plans-container .row:nth-child(2){
-	margin:0 2em;
-	}
+.regional-img{
+	margin-bottom: 30px;
+}
+.wrap-content{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+/*benefit*/
+.banefit-text{
+	margin-top: 70px;
+}
+
+
+/*footer icon kontak*/
+
+.social-icons {
+    margin-top:30px;
+    text-align: center;
+}
+
+.social-icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.social-icons ul li {
+    float: left;
+    margin-right: 8px;
+}
+
+.social-icons ul li:last-child {
+    margin-right: 0;
+}
+
+.social-icons ul li a {
+    color:#fff;
+    background-color: #d9d9d9;
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    display: block;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.social-icons ul li a:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.team-member {
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+}
+
+.team-member:hover .social-icons ul li a.facebook {
+    background-color: #3b5999;
+}
+.team-member:hover .social-icons ul li a.twitter {
+    background-color: #2ac6f7;
+}
+.team-member:hover .social-icons ul li a.dribbble {
+    background-color: #ff5b92;
+}
+.team-member:hover .social-icons ul li a.linkedin {
+    background-color: #036dc0;
+}
+.team-member:hover .social-icons ul li a.rss {
+    background-color: #ff6b00;
+}
+.team-member:hover .social-icons ul li a.behance {
+    background-color: #0B7CFF;
+}
+.team-member:hover .social-icons ul li a.dribbble {
+    background-color: #E24D87;
+}
+.team-member:hover .social-icons ul li a.instagram {
+    background-color: orange;
+}
+
+#footer .social-icons {
+    margin-top: 15px;
+}
+
+#footer .social-icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .social-icons ul li a {
+    background-color: rgba(0,0,0,.2);
+    border-radius: 4px;
+    line-height: 33px;
+}
+
+#footer .social-icons ul li a:hover {
+    color: #fff
+}
+
+#footer .social-icons ul li a.envelope:hover {
+    background-color: #CECB26;
+}
+
+#footer .social-icons ul li a.facebook:hover {
+    background-color: #3b5999;
+}
+#footer .social-icons ul li a.twitter:hover {
+    background-color: #2ac6f7;
+}
+#footer .social-icons ul li a.dribbble:hover {
+    background-color: #ff5b92;
+}
+#footer .social-icons ul li a.linkedin:hover {
+    background-color: #036dc0;
+}
+#footer .social-icons ul li a.tumblr:hover {
+    background-color: #ff6b00;
+}

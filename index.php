@@ -6,7 +6,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Cover Template for Bootstrap</title>
+    <title>Loop Appreciate</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -23,7 +23,7 @@
 <!-- header -->
     <nav class="navbar navbar-expand-lg navbar-light bg-faded navigation">
       <a class="navbar-brand" href="#">
-        <img src="img/logo.png" width="80" height="auto" alt="">
+        <img src="img/LogoLoop.png" width="80" height="auto" alt="">
       </a>
       <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon text-white"></span>
@@ -47,193 +47,125 @@
       </nav>
 
     <div class="banner-img">
-            
-            <div class="container banner"> 
-                  <h1 class="capitalize text-white">Enyo Company</h1>
-                    <p class="text-white col-xs-12 d-none  d-md-block col-md-8 center text-header">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros elit, ultricies non tortor id, posuere varius sapien. Donec arcu enim, ullamcorper sed risus eu, mollis feugiat lorem. Quisque a egestas magna. Phasellus scelerisque hendrerit mauris,</p>
-                    <a href=""><button class="round-btn"><i class="fa fa-download" aria-hidden="true"></i> Download</button></a>
-
+      <div class="container">
+      <div class="row">
+          
+           <div class="col-xs-12 d-md-none d-flex  mentor-atas"> 
+                  <img class="img-fluid " src="img/mentor.png">
             </div>
-    </div>
-    
 
-    
-  
-<!-- end-header -->
+            <div class="col-xs-12 col-sm-12 col-md-7 header-keterangan"> 
+                    <h2>LOOP APPERNTICE</h2>
+                    <p>Mau magang di perusahaan Telekomunikasi No 1 di Indonesia khusus buat kamu yang punya jiwa kreatif,aktif ,suka tantangan dan mau belajar leadership,marketing dan enterpreneour </p>
+                    <button class="round-btn">Read More</button>
+            </div>
 
-<!-- download it -->
-    <div class="container relative">
-      <div class="row download-it">
+            <div class="col-xs-12 d-none  d-md-block col-md-5 mentor"> 
+                  <img class="img-fluid " src="img/mentor.png">
+            </div>
+          </div><!-- container -->
+        </div><!-- row -->
+    </div><!-- banner image -->
 
-          <div class="col-xs-12 d-md-none d-flex macbook"> 
-              <img class="img-fluid " src="img/macbook.png">
-          </div>
 
-          <div class="col-xs-12 col-sm-12 col-md-7 "> 
-            
-              <h2>JUST DOWNLOAD IT</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros elit, ultricies non tortor id, posuere varius sapien. Donec arcu enim, ullamcorper sed risus eu, mollis feugiat lorem. Quisque a egestas magna. Phasellus scelerisque hendrerit mauris, ac ullamcorper felis fermentum vitae. Nulla facilisis mi at </p>
 
-              <ul >
-                <li><i class="fa fa-check-circle-o" aria-hidden="true"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                <li><i class="fa fa-check-circle-o" aria-hidden="true"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                <li><i class="fa fa-check-circle-o" aria-hidden="true"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-              </ul>
-              <button class="round-btn">Read More</button>
-          </div>
+<!-- bagian regioanl -->
+    <div class="bg-regional">
+      <div class="container-fluid regional-container">
+        <div class="row ">
 
-           <div class="col-xs-12 d-none  d-md-block col-md-5 macbook"> 
-              <img class="img-fluid " src="img/macbook.png">
-          </div>
-        
+            <div class="col12 regional">
+
+              <h3 class="capitalize center" >Regional</h3>    
+              <div class="garis"></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros elit, ultricies non tortor id, posuere varius sapien. Donec arcu enim, ullamcorper sed risus eu,</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-xs-12 regional-img">
+                <img src="img/JAKARTA.png" class="img-fluid round-img" alt="Responsive image">
+              </div>
+              <div class="col-lg-3 col-md-6 col-xs-12 regional-img">
+                <img src="img/JATENG.png" class="img-fluid round-img" alt="Responsive image">
+              </div>
+              <div class="col-lg-3 col-md-6 col-xs-12 regional-img">
+                <img src="img/JATIM.png" class="img-fluid round-img" alt="Responsive image">
+              </div>
+              <div class="col-lg-3 col-md-6 col-xs-12 regional-img">
+                <img src="img/BALI.png" class="img-fluid round-img" alt="Responsive image">
+              </div>
+         
+        </div>
       </div>
-      
-    </div>
-<!-- end download it -->
-    
-<!-- feature section -->
 
-    <div class="container fitur">
-      <div class="row ">    
+      <!-- <div class="wrap-content">
+        <div class="row">
+             
+        </div>
+      </div> -->
 
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-          <div class="media">
-            <img class="d-flex mr-3" src="img/star.svg" alt="Generic placeholder image">
-            <div class="media-body">
-                <h5 class="mt-0">Media heading</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-          </div>
+    </div><!-- AKHIR REFGIONAL -->
+
+    <div class="container-fluid regional-container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 -col-xs-12">
+          <img src="img/foto-req.png" class="img-fluid" alt="Responsive image">
+        </div>
+        <!-- tulisan -->
+        <div class="col-lg-6 col-md-6 col-sm-12 -col-xs-12">
+          <h3 class="capitalize center" >Regional</h3>    
+              <div class="garis"></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros elit, ultricies non tortor id, posuere varius sapien. Donec arcu enim, ullamcorper sed risus eu,</p>
         </div>
 
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-          <div class="media">
-            <img class="d-flex mr-3" src="img/desktop.svg" alt="Generic placeholder image">
-            <div class="media-body">
-                <h5 class="mt-0">Media heading</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-          </div>
+        <!-- benefit -->
+        <!-- tulisan -->
+        <br><br>
+        <div class="col-lg-6 col-md-6 col-sm-12 -col-xs-12 banefit-text">
+          <h3 class="capitalize center " >Benefit</h3>    
+              <div class="garis"></div>
+              <h5>Training Session , Experience <br>
+Certificate , Reward</h5>
         </div>
 
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-          <div class="media">
-            <img class="d-flex mr-3 img-fitur" src="img/dot-line.svg" alt="Generic placeholder image">
-            <div class="media-body">
-                <h5 class="mt-0">Media heading</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-          </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 -col-xs-12">
+          <img src="img/badge.png" class="img-fluid" alt="Responsive image">
         </div>
-
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-          <div class="media">
-            <img class="d-flex mr-3 img-fitur" src="img/device.svg" alt="Generic placeholder image">
-            <div class="media-body">
-                <h5 class="mt-0">Media heading</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-          <div class="media">
-            <img class="d-flex mr-3 img-fitur" src="img/camera.svg" alt="Generic placeholder image">
-            <div class="media-body">
-                <h5 class="mt-0">Media heading</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-          <div class="media">
-            <img class="d-flex mr-3 img-fitur" src="img/paper.svg" alt="Generic placeholder image">
-            <div class="media-body">
-                <h5 class="mt-0">Media heading</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-<!--end  feature section -->
-
-<!-- pricing section -->
-    <div class="features">
-      <h2 class="capitalize">Check Out Features</h2>
-
-      <img src="img/macbook-feature.png" class="img-fluid " alt="Responsive image">
-    </div>
-
-    <div class="container-fluid plans-container">
-      <div class="row ">
-
-        <div class="col12 plans">
-          <h3 class="capitalize center" >Plans</h3>    
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros elit, ultricies non tortor id, posuere varius sapien. Donec arcu enim, ullamcorper sed risus eu,</p>
-        </div>
-
-        <div class="col-xs-12 col-md-4 price"> 
-            <h4>Basic Plan</h4>
-            <h5><strong>$</strong><strong class="price-figure">25</strong>/month</h5>
-            <p>Lorem Ipsum dolor sit.</p>
-          
-        </div>
-
-        <div class="col-xs-12 col-md-4 price"> 
-            <h4>Basic Plan</h4>
-            <h5><strong>$</strong><strong class="price-figure">25</strong>/month</h5>
-            <p>Lorem Ipsum dolor sit.</p>
-          
-        </div>
-
-        <div class="col-xs-12 col-md-4 price"> 
-            <h4>Basic Plan</h4>
-            <h5><strong>$</strong><strong class="price-figure">25</strong>/month</h5>
-            <p>Lorem Ipsum dolor sit.</p>
-          
-        </div>
-        
       </div>
     </div>
 
-    <div class="contact-info">
-        <img src="img/cs.svg" alt="Generic placeholder image" class="cs">
-        <h3 class="capitalize">Got Question</h3>  
-        <p>Contact our customer if you have any further question. We are here to helpyou out</p>
-
-        <div class="contact-items">
-            <h5><i class="fa fa-phone" aria-hidden="true"></i>+62 821 234 568 </h5>
-            <h5><i class="fa fa-envelope" aria-hidden="true"></i>supoport@enyo.com </h5>
-        </div>
-
-    </div>
-    
-<!-- end pricing section -->
-
-<!-- download section -->
-  <div class="download-template">
-    <h2 class="capitalize">Download Template For Free</h2>
-    <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros elit, ultricies non tortor id, posuere varius sapien. Donec arcu enim, ullamcorper sed risus eu, mollis feugiat lorem. Quisque a egestas magna. Phasellus scelerisque hendrerit mauris, ac ullamcorper felis fermentum vitae.</p>
-
-    <button class="round-btn"><i class="fa fa-download" aria-hidden="true"></i> Download</button>
-
-  </div>
-  <div class="img-fluid footer-img"></div>
-<!-- download section -->
-
-<!-- content -->
 
 
+<footer id="footer" style="  ">
+            <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="container text-center">
+                <h3 style="color: #e3e3e3">social media</h3>
+                    <div class="social-icons">
+                        <ul>
+                            <li><a class="envelope" href="mailto:radityaputranto@it.student.pens.ac.id" target="_blank"><i
+                                        class="fa fa-envelope"></i></a></li>
+                            <li><a class="twitter" href="https://twitter.com/didit_putranto" target="_blank"><i
+                                        class="fa fa-twitter"></i></a></li>
+                            <li><a class="facebook" href="https://www.facebook.com/didit.putra.96" target="_blank"><i
+                                        class="fa fa-facebook"></i></a></li>
+                            <li><a class="linkedin" href="https://www.linkedin.com/in/raditya-putranto-677126119?trk=nav_responsive_tab_profile_pic" target="_blank"><i
+                                        class="fa fa-linkedin"></i></a></li>
+                            <li><a class="behance" href="https://www.behance.net/radityaput58f6" target="_blank"><i
+                                        class="fa fa-behance"></i></a></li>
+                                        </a></li>
+                            <li><a class="dribbble" href="https://dribbble.com/raditya_putranto" target="_blank"><i
+                                        class="fa fa-dribbble"></i></a></li>
+                                        <li><a class="instagram" href="https://www.instagram.com/raditya_putranto/" target="_blank"><i
+                                        class="fa fa-instagram"></i></a></li>
+                                        
 
-
-
-
-<!-- end-content -->
-
-<!-- footer -->
+                            
+                        </ul>
+                        <h4> copyright 2017 by Telkom All Right Reserved </h4>
+                        
+                    </div>
+                  </div>
+                </div>
+              </footer>
 <!-- end-footer -->
 
 <!-- javascript -->
